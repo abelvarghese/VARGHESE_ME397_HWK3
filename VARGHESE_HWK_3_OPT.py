@@ -97,7 +97,7 @@ status = opt.solve(model)
 
 # write model outputs to a JSON file
 model.solutions.store_to(status)
-status.write(filename='Test_OUTPUTS.json', format='json')
+status.write(filename='VARGHESE_HWK_3_OUTPUTS.json', format='json')
 
 # pyomo solve solar_storage_model.py --solver=glpk
 # pyomo solve solar_storage_model.py --solver=gurobi
